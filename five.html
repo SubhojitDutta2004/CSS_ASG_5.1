@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <style>
+        body{
+            height: 80vh;
+            width: 90%;
+            border: 2px solid black;
+        }
+        .image{
+            width: 450px;
+            height: auto;
+            border: 2px solid black;
+            filter: blur(10px);
+        }
+        div{
+            text-align: center;
+            justify-content: center;
+            /* display: flex; */
+            /* place-items: center; */
+            text-decoration: underline;
+        }
+        .image:hover{
+            filter: blur(0);
+            transition: all 0.3s ease-in;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1>Hover To Reveal The Image.</h1>
+        <img class="image" src="image-5.1/parliament.jpg">
+    </div>
+  </body>
+</html>
